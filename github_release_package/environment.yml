@@ -1,0 +1,30 @@
+name: melanoma-geneformer-public
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - scanpy
+  - anndata
+  - requests
+  - statsmodels
+  - pip:
+      - datasets
+      - transformers
+      - accelerate
+      - geneformer
+      - python-docx
+
+# PyTorch note:
+# Install the PyTorch wheel that matches your own CUDA/CPU environment.
+# Example used in the analysis environment after GPU validation:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
