@@ -1,0 +1,18 @@
+# Core reproducibility dependencies
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+scanpy
+anndata
+requests
+statsmodels
+datasets
+transformers
+accelerate
+torch
+geneformer
+python-docx
